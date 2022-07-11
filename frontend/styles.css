@@ -1,0 +1,152 @@
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --text-button: #2f2b2b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: none;
+}
+
+header,
+main,
+footer {
+    width: 620px;
+    left: 373px;
+}
+
+body {
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    background: linear-gradient(67deg, #1E46A3 -10%, #000000 50%, #C12A23 110%);
+}
+
+header {
+    position: absolute;
+    height: 130px;
+    top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--title);
+}
+
+header img {
+    height: 60px;
+}
+
+main {
+    position: absolute;
+    height: 270px;
+    top: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--title);
+}
+
+main img {
+    height: 230px;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section > img {
+    margin-top: 5px;
+}
+
+section div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section div img {
+    height: 16px;
+}
+
+section p {
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+aside {
+    margin-left: 15px;
+}
+
+aside p {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+
+/* PRÉ-CLIQUE */
+
+footer {
+    position: absolute;
+    height: 110px;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer p {
+    color: var(--subtitle);
+    text-align: center;
+}
+
+button {
+    position: relative;
+    width: 180px;
+    height: 47px;
+    left: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--bg-button);
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+button img {
+    height: 25px;
+}
+
+button p {
+    font-weight: 700;
+    color: var(--text-button);
+}
+
+
+/* PÓS CLIQUE */
+
+.moved {
+    top: 550px;
+    transition: all 0.2s;
+}
+
+.invisible{
+    visibility: hidden;
+    transition: all 0.6s;
+}

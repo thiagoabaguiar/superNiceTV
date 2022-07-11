@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="./assets/favico/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>SuperNiceTV</title>
+</head>
+
+<body>
+
+  <header>
+    <img src="./assets/shuffle.svg" alt="logo_SuperNiceTV">
+    <h1>Não sabe o que assistir?</h1>
+  </header>
+
+  <main class="invisible">
+    <section>
+      <img id="poster" src="" alt="logo_estudar">
+      <div>
+        <img src="./assets/calendar.png" alt="logo_calendar">
+        <p id="year"></p>
+        <img src="./assets/star.png" alt="logo_star">
+        <p id="rating"></p>
+      </div>
+    </section>
+
+    <aside>
+      <h2 id="title"></h2>
+      <p id="overview"></p>
+    </aside>
+  </main>
+
+  <footer>
+    <button id="buscar_filme" onclick=getMovie(event)>
+      <img src="./assets/shuffle.svg" alt="logo_SuperNiceTV">
+      <p>Encontrar filme</p>
+    </button>
+    <p>Clique em "Encontrar filme" que traremos informações de algum filme para você assistir hoje.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
