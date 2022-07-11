@@ -26,7 +26,7 @@ Eventualmente, se a API do TMDB não retornar um filme válido, o Front-end trat
 - [x] Estilização
 - [x] Função para Encontrar Filme
 - [x] Tratamento de Filme Inválido
-- [x] Tratamento de Sinopse (700 caracteres)
+- [ ] Tratamento de Sinopse (700 caracteres)
 - [x] Tratamento de Filme sem Banner
 - [ ] Responsividade
 
